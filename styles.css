@@ -1,0 +1,29 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.animation_window {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.imageWrapper {
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.focused {
+  border: 3px solid blue;
+}
